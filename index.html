@@ -188,6 +188,7 @@
 <button style="background-color:#2ECC71; color:white;" onclick="myCreateFunction3()">Crear</button>
 <button style="background-color:#2ECC71; color:white;" onclick="myDeleteFunction3()">Eliminar</button>
 <button border=3px bordercolor=black style="background-color:white; color:black;" onclick="">Descargar</button>
+<button border=3px bordercolor=black style="background-color:white; color:black;" onclick="comprobarFunction3()">Comprobar</button>
 </div>
 <script>
 function myCreateFunction3() {
@@ -202,6 +203,10 @@ function myCreateFunction3() {
 }
 function myDeleteFunction3() {
   document.getElementById("tabla3").deleteRow(-1);
+}
+function comprobarFunction3() {
+  alert("Tu proyecto no es viable, aumenta tus tiempos de entrega porque hay una probabilidad de que tus objetivos no se cumplan.");
+
 }
 </script>
 
